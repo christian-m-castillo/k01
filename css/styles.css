@@ -6,15 +6,14 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-size: 2.3vmin;
-  background-color: #333;
-  color: white;
+  font-size: 2.5vmin;
 }
 
 header {
   background-color: rgb(66, 84, 104);
   color: #fff;
   padding: 1rem 0;
+  display: none;
 }
 
 nav ul {
@@ -36,7 +35,19 @@ section {
 }
 
 h1, h2 {
-  color: #fff;
+  color: #333; 
+}
+
+h1 {
+  font-size: 4vmin;
+}
+
+h2 {
+  font-size: 3vmin;
+}
+
+.right img {
+  height: 20vmin;
 }
 
 form {
@@ -53,6 +64,10 @@ form input, form textarea {
   margin-top: 0.5rem;
 }
 
+button {
+  font-size: 2.5vmin;
+}
+
 form button {
   padding: 0.5rem;
   margin-top: 1rem;
@@ -66,4 +81,5 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem 0;
+  display: none;
 }
